@@ -1,0 +1,40 @@
+body {
+  background-color: #8edbfa;
+}
+
+.container {
+  background-color: white;
+  padding: 2px 16px;
+  border-radius: 5px;
+  transition: 0.3s;
+  max-height: fit-content;
+  margin-right: 55%;
+}
+
+/* Pseudoclases - img */
+img {
+  border: 5px solid #555;
+}
+img :hover {
+  border-color: 5px solid #990000;
+}
+img:active {
+  border-color: blue;
+}
+
+/*Overflow*/
+.elementof {
+  overflow: scroll;
+}
+
+/* Selector */
+.elementof::shadow {
+  overflow: scroll;
+  color: aqua;
+}
+
+#borderimg {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 round;
+}
